@@ -1,0 +1,59 @@
+.definition-card {
+  background-color: #797676;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+.definition-card__phrase {
+  align-items: center;
+  display: flex;
+  font-size: 2.5rem;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.definition-card__meaning {
+  margin-bottom: 1rem;
+}
+
+.definition-card__meta {
+  display: flex;
+  font-weight: bold;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.upvote-btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 150px;
+}
+
+.upvote-btn {
+  align-items: center;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  padding: .5rem;
+  transition: all .3s ease-in-out;
+}
+
+.upvote-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.upvote-btn:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.upvote-btn:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 0;
+}
